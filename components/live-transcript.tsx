@@ -74,7 +74,7 @@ export function LiveTranscript() {
                 Live Transcript
               </h1>
               <p className="text-sm text-muted-foreground">
-                Powered by Deepgram AI
+                Powered by Faizan 
               </p>
             </div>
           </div>
