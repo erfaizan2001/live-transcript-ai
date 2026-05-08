@@ -48,10 +48,11 @@ export function useDeepgram() {
             model: "nova-3",
             language: "multi",
             smart_format: "true",
+            punctuate: "true",
             interim_results: "true",
             utterance_end_ms: "1000",
             vad_events: "true",
-            endpointing: "300",
+            endpointing: "500",
           }),
         ["token", key]
       );
