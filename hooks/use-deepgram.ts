@@ -45,7 +45,7 @@ export function useDeepgram() {
       const socket = new WebSocket(
         "wss://api.deepgram.com/v1/listen?" +
           new URLSearchParams({
-            model: "nova-2",
+            model: "nova-3",
             language: "multi",
             smart_format: "true",
             interim_results: "true",
