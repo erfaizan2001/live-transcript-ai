@@ -46,7 +46,7 @@ export function useDeepgram() {
         "wss://api.deepgram.com/v1/listen?" +
           new URLSearchParams({
             model: "nova-2",
-            language: "en",
+            language: "multi",
             smart_format: "true",
             interim_results: "true",
             utterance_end_ms: "1000",
